@@ -1,0 +1,20 @@
+@use "../utils/functions" as func;
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Rubik";
+}
+.container {
+  $mb-padding: 20;
+  max-width: func.container(1440, 116, $mb-padding);
+  margin: 0 auto;
+  padding: 0 $mb-padding + px;
+}
