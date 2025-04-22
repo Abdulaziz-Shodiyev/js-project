@@ -189,8 +189,8 @@ document.addEventListener("DOMContentLoaded", function () {
     cardElement.innerHTML = `
       <div class="card-img">
         <img src="${card.image}" alt="${card.title}" />
-        <div class="biggest-content">
       </div>
+      <div class="biggest-content">
         <h6>${card.date}</h6>
         <h4>${card.title}</h4>
         <p>${card.description}</p>
